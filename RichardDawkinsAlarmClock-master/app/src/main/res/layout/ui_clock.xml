@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.axu1.richarddawkinsalarmclock.ClockActivity"
+    android:background="@color/colorAccent"
     tools:layout_editor_absoluteY="81dp"
     tools:layout_editor_absoluteX="0dp">
 
@@ -59,6 +60,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Set the alarm clock!"
         android:id="@+id/alarmText"
+        android:textColor="@color/colorWhite"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/start_alarm"
